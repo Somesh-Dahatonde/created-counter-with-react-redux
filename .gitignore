@@ -1,0 +1,7 @@
+
+dist
+.cache
+./src/Reducer.js
+./src/Action.js
+./src/store.js
+node_modules
