@@ -1,17 +1,13 @@
 import React from "react";
-import { render } from "react-dom";
 import Counter from "./Counter";
-import { Provider } from "react-redux";
-import store from "./store";
+// import { BrowserRouter, Route } from "react-router-dom";
 
 const App = () => {
   return (
-    <div>
-      {/* <Provider store={store}> */}
+    <div className="App">
       <Counter />
-      {/* </Provider> */}
     </div>
   );
 };
 
-render(<App />, document.getElementById("root"));
+export default App;
